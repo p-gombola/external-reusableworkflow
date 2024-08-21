@@ -4,7 +4,6 @@ on:
   workflow_call:
     inputs:
       who-to-greet:
-        required: true
         type: string
         default: world
 

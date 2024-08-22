@@ -9,6 +9,8 @@ inputs:
 runs:
   using: "composite"
   steps:
+    - name: pwd
+      run: pwd
     - name: Print Greeting
       run: echo "Hello $INPUT_WHO_TO_GREET."
       shell: bash
